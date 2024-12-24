@@ -2,7 +2,6 @@ import { Button } from './ui/button'
 import Image from 'next/image'
 
 export default function FavoriteApps() {
-  const apps = ['Gmail', 'Slack', 'Dropbox', 'Zoom', 'Figma', 'Google Drive']
   
   return (
     <section className="bg-[#043873] text-white py-20">
@@ -24,6 +23,7 @@ export default function FavoriteApps() {
               <br />
               whitepace</h2>
             <p className="mb-8">Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>
+            
             <Button className="bg-[#4F9CF9] hover:bg-[#3A89E9]">Read more
                <Image
                   src="/arrow.png"
