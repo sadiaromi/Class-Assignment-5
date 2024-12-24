@@ -6,7 +6,7 @@ export default function WorkTogether() {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0 lg:-ml-28">
+          <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
               src="/worktogether.image.png"
               alt="Work together"
@@ -15,7 +15,7 @@ export default function WorkTogether() {
               className="w-full h-auto"
             />
           </div>
-          <div className="md:w-1/2 md:pl-12 lg:pl-24">
+          <div className="md:w-1/2 md:pl-12">
           <Image
           src={"/worktogetherheading.png"}
           alt='Work Together'
